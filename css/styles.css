@@ -181,3 +181,50 @@ button:hover {
   grid-area: C;
 }
 }
+
+@media screen and (max-width: 1200px) {
+  body {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    width: 720px;
+  }
+  .cont-cr {
+  margin: 0 60px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 540px;
+  }
+  .cont-cr {
+  margin: 0 30px;
+}
+.logo {
+  padding: 57px 45px;
+}
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    width: 90%;
+  }
+  .cont-cr {
+  margin: 0 50px;
+}
+.logo {
+  padding: 57px 25px;
+}
+.itempng {
+  width: 400px;
+}
+figcaption {
+  font-size: 18px;
+  padding: 30px 50px;
+  margin-top: -98px;
+}
+}
